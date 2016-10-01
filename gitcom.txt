@@ -1,0 +1,14 @@
+Creat RM on GitHub (new Repository)
+echo "# RepositoryName" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/FLampart/Playpository.git
+git push -u origin master
+
+Work with GitHub form command line
+git status
+git add file.xyz
+git commit -m "blabla"
+git push
+git pull
